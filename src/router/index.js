@@ -68,6 +68,11 @@ const routes = [{
     component: () => import('../views/test1.vue')
   },
   {
+    path: '/table',
+    name: 'table',
+    component: () => import('../views/table.vue')
+  },
+  {
     path:"*",
     redirect: "home",
   }
